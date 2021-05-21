@@ -6,7 +6,7 @@ function Navbar(){
              <a href="#" className="logo">
                  UI Expert
              </a>
-             <ul>
+             <ul className="menu">
                  <li><a href="#">About</a></li>
                  <li><a href="#">Experiance</a></li>
                  <li><a href="#">Skills</a></li>
