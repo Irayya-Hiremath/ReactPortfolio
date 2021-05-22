@@ -15,5 +15,10 @@ code {
   width: 30%;
   display: flex;
   justify-content: space-around;
+  list-style: none;
+  border: 1px solid red;
 
+}
+.menu li{
+  border: 1px solid  red;
 }
