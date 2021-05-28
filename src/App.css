@@ -36,3 +36,216 @@
     transform: rotate(360deg);
   }
 }
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+input{
+  outline: none;
+  border: none;
+}
+/* .menu{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  border: 1px solid  red;
+
+} */
+.logo{
+  color: blue;
+}
+.main{
+  width: 100%;
+  height: 90vh;
+  border: 2px solid green;
+  position: absolute;
+  top: 10%;
+  background: no-repeat;
+  background-size:50%;
+  background-size: contain;
+  background-image: url(./images/IIMG-removebg-preview.png)
+}
+.main:hover{
+  background: no-repeat;
+  background-size: cover;
+  background-size: contain;
+  background-image: url(./images/BGIMG1.png)
+
+}
+.hello{
+  position: absolute;
+  left: 35%;
+  top: 10%;
+
+}
+.am{
+  position: absolute;
+  left: 40%;
+  top: 20%;
+
+
+}
+.about{
+  width: 50%;
+  height: 50%;
+  border: 2px solid red;
+  position: absolute;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+}
+.detail{
+    width: 50%;
+    height: 50%;
+    border: 2px solid red;
+    position: absolute;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    opacity: 0;
+  }
+  .detail:hover{
+    opacity: 100;
+  }
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 5px 10px 30px rgb(0, 0, 0.4);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width:100%;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+}
+nav ul{
+  display: flex;
+}
+nav ul li a{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 40px;
+  line-height:43px ;
+  margin: 3px;
+  padding: 0px 20px;
+  display: flex;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: black;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  transition: 0.4s ease-in-out;
+}
+.Hey{
+  color: black;
+  font-weight: 500;
+  font-size: 0.9rem;
+  border-bottom: 2px solid black;
+
+}
+nav ul li a:hover{
+  background-color: black;
+  color: antiquewhite;
+  box-shadow: 5px 10px 30px rgb(0, 0, 0.4);
+
+  
+}
+nav.menu-btn,.menu-icon{
+  display: none;
+}
+
+/* .name{
+  width: 600px;
+  position: absolute;
+  right: 16%;
+  top: 50%;
+  transform: translate(-20%,-50%);
+}
+.name span{
+  color: yellowgreen;
+  border-bottom:  2px solid yellowgreen;
+} */
+.name .details{
+  color: antiquewhite;
+
+}
+/* .heading{
+  color: rgb(17, 17, 16);
+  
+} */
+.header-btns{
+  display: flex;
+  margin-top: 40px;
+}
+.btn-1{
+  background-color: rgb(210, 231, 19);
+  width: 110px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: cennter;
+  box-shadow: 50px 10px 30px rgba(255,251,2,0.2);
+  border-radius: 10px;
+  color: black;
+}
+.btn-2{
+  background-color: rgb(210, 231, 19);
+  width: 110px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: cennter;
+  box-shadow: 50px 10px 30px rgba(255,251,2,0.2);
+  border-radius: 10px;
+  color: black;
+}
+.btn-1:hover{
+  background-color: aqua;
+  transition: all ease 0.4s;
+  color: red;
+}
+.btn-2:hover{
+  background-color: aqua;
+  transition: all ease 0.4s;
+  color: red;
+}
+
+/* ecperiance */
+
+
+.exp{
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  border: 1px solid red;
+}
+.tab1{
+  position: relative;
+  width: 30%;
+  height: 30vh;
+  border: 1px solid red;
+
+}
+.front {
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+  position: absolute;
+  top: 0;
+
+
+}
+.back {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(127, 129, 255);
+  position: absolute;
+  top: 0;
+  
+
+}
