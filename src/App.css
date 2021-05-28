@@ -229,23 +229,26 @@ nav.menu-btn,.menu-icon{
   width: 30%;
   height: 30vh;
   border: 1px solid red;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
 
 }
-.front {
+.front, .back {
   width: 100%;
   height: 100%;
-  background-color: aquamarine;
   position: absolute;
   top: 0;
 
 
 }
-.back {
-  width: 100%;
-  height: 100%;
-  background-color: rgb(127, 129, 255);
-  position: absolute;
-  top: 0;
-  
-
+.front{
+  background-color: red;
+}
+.back{
+  background-color: blue;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+.exp-Tabs:hover .tab1{
+  transform: rotateX(180deg);
 }
