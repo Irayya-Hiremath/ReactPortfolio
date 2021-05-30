@@ -4,7 +4,7 @@ import Navbar from './Navbar/Navbar'
 function Header(){
     return(
         <div className='main'>
-            <Navbar/>
+            {/* <Navbar/> */}
             
                 <h1 className="hello">Hello,</h1>
                 <h1 className="am">I am</h1>

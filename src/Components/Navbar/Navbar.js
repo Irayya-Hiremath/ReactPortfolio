@@ -2,7 +2,7 @@ import React from "react"
 
 function Navbar(){
     return(
-        <nav>
+        <nav id="Navbar">
              <a href="#" className="logo">
                  UI Expert
              </a>
@@ -13,7 +13,7 @@ function Navbar(){
 
              <ul className="menu">
                  <li><a href="#">About</a></li>
-                 <li><a href="#">Experiance</a></li>
+                 <li><a href="#Exp">Experiance</a></li>
                  <li><a href="#">Skills</a></li>
                  <li><a href="#">Education</a></li>
                  <li><a href="#">Contact</a></li>

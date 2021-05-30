@@ -6,10 +6,12 @@ import Experiance from "./Components/Experiance"
 function App() {
   return (
     <>
-      <Navbar/>
-      <Header/>
+ 
+      <Navbar />
+        <Header/>
       <Experiance/>
-  
+
+
       
     </>
   );
