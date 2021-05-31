@@ -1,6 +1,9 @@
 body{
   scroll-behavior: smooth;
-  scroll-bar:hide;
+
+}
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 ul{
   list-style: none;
@@ -33,6 +36,7 @@ input{
   background-size:50%;
   background-size: contain;
   background-image: url(./images/IIMG-removebg-preview.png)
+  
 }
 .main:hover{
   background: no-repeat;
@@ -193,6 +197,7 @@ nav.menu-btn,.menu-icon{
 }
 .tab1{
   /* position: relative; */
+  margin-top: 5%;
   width: 30%;
   height: 30vh;
   border: 1px solid red;
