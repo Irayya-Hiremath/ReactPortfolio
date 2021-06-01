@@ -3,10 +3,10 @@ import React from "react"
 function Navbar(){
     return(
         <nav id="Navbar">
-             <a href="#" className="logo">
+             {/* <a href="#" className="logo">
                  UI Expert
-             </a>
-             <input className='menu-btn' type='checkbox'/>
+             </a> */}
+             {/* <input className='menu-btn' type='checkbox'/> */}
              <label className="menu-icon" for="menu-btn">
                  <span className='nav-icon'></span>
              </label>

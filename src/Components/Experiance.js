@@ -11,12 +11,9 @@ function Experiance(){
                     </div>
                     <div className="back"> 
                     <p>
-                    • Portfolio
-                            Design And developed My Portfolio by using HTML, Tailwind CSS& JavaScript Technology
-                    • Race Game
-                            Design And developed game by using HTML, CSS& JavaScript Technology
-                    • Number Guessing Game
-                            A random number will generate we have to guess the that the no. is odd or even. Design And developed game by using HTML, CSS& JavaScript Technology .
+                    <h3>Portfolio</h3>Design And developed My Portfolio by using HTML, Tailwind CSS&JavaScript Technology
+                    <h3>Race Game</h3> Design And developed game by using HTML, CSS&JavaScript Technology
+                    <h3>Number Guessing Game</h3> A random number will generate we have to guess the that the no. is odd or even. Design And developed game by using HTML, CSS& JavaScript Technology .
                     </p>
                     </div>
 
