@@ -228,3 +228,9 @@ nav.menu-btn,.menu-icon{
   transform: rotateY(180deg);
       transition-duration: .5s;
 }
+.exp-Tabs{
+  border: soild 2px red;
+}
+.tab1{
+  border: soild 2px red;
+}

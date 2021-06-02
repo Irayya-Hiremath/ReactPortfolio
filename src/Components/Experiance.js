@@ -5,7 +5,7 @@ import Data from "./Card/Data";
 function Experiance(){
     return(
         <div className="exp" id="Exp">
-            <div className="exp-Tabs">
+            {/* <div className="exp-Tabs"> */}
                 <Card
                 scompany={Data[0].scompany} 
                 srole={Data[0].srole}
@@ -36,7 +36,10 @@ function Experiance(){
 
             </div>
             
-        </div>
+        // </div>
+
+
+        
     )
 }
 export default Experiance;
