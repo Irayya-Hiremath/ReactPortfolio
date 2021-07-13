@@ -1,8 +1,11 @@
 import React from "react"
 import Navbar from './Navbar/Navbar'
+import {Container,} from 'react-bootstrap';
 
 function Header(){
     return(
+        
+        <div className="Container">
         <div className='main'>
             {/* <Navbar/> */}
             
@@ -26,6 +29,7 @@ function Header(){
                  
                 
             
+        </div>
         </div>
     
     )
