@@ -1,10 +1,10 @@
 import React from "react"
 
-function Home(){
+function Skills(){
     return(
         <div> 
-        hello this is home page 
+        hello this is skills page 
         </div>
     )
 }
-export default Home
+export default Skills
