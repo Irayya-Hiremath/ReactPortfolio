@@ -1,8 +1,10 @@
 import React from "react"
+import Navbar from "./Navbar"
 
 function Skills(){
     return(
-        <div> 
+        <div id='skills'> 
+        {/* <Navbar/> */}
         hello this is skills page 
         </div>
     )

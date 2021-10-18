@@ -37,6 +37,7 @@ function App() {
           <Route  exact path="/Projects">
             <Projects />
           </Route>
+
         </Switch>
       </Router>
       <Experiance/>
