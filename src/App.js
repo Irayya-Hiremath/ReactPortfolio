@@ -6,10 +6,12 @@ import Skills from "./Components/Skills";
 import Experiance from "./Components/Experiance";
 import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <div>
+      <Navbar/>
       
       
       <Router>
@@ -43,8 +45,9 @@ function App() {
       <Experiance/>
       <Education/>
       <Skills/>
-      <Projects/>
       <Contact/>
+
+      <Projects/>
 
 
     </div>

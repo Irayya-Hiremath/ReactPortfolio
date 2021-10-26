@@ -2,8 +2,12 @@
    margin: 0;
    padding: 0;
  } 
-*{
+ *{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+
 }
 
 code {
@@ -21,23 +25,23 @@ ul{
   justify-content: space-around;
   list-style: none;
 }*/
-.container{
+/* .conatian{
   height: 90vh;
   width: screen;
   background-color: blue;
   display: flex;
 } 
-.myimg{
-  width: 35%;
-  height: 100%;
-  background-color: black;
-  background-image: url(images/BGIMG1.png);
-  background-size: cover;
+.myimg{ */
+  /* width: 35%;
+  height: 100%; */
+  /* background-color: black; */
+  /* background-image: url(images/BGIMG1.png); */
+  /* background-size: cover;
   background-repeat: no-repeat;
-}
-.header{
-  width: 65%;
-  height: 100%;
+} */
+
+
+/* .header{
   background-color:rebeccapurple;
 }
 #about{
@@ -45,42 +49,31 @@ ul{
   height: 90vh;
   width: 100%;
 }
-#contact{
-  padding-top: 10vh;
 
-  height: 90vh;
-  width: 100%;
-  
-}
-#experiance{
-  padding-top:20vh;
-  /* margin-top: 10vh; */
-  height: 80vh;
+#experiance{  
+  height: 100vh;
   width: 100%;
   border :2px solid red;
 background-color: chartreuse;
 }
 #education{
-  padding-top: 10vh;
   height: 90vh;
   width: 100%;
+
 }
 #skills{
-  padding-top:10vh;
   height: 90vh;
   width: 100%;
   border: 1px solid red;
+
 }
 #contact{
-
-  padding-top:10vh;
+  margin-top: 10vh;
   height: 90vh;
   width: 100%;
   border: 1px solid red;
 }
 #projects{
-  margin-top: 10vh;
-  /* padding-top:10vh; */
   height: 90vh;
   width: 100%;
   border: 1px solid red;
@@ -92,6 +85,7 @@ background-color: chartreuse;
   top: 0;
   left: 0;
   border: 1px solid black;
+  background-color: transparent;
 }
 
-
+ */
