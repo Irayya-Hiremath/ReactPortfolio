@@ -1,53 +1,39 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import About from "./Components/About";
-import Education from "./Components/Education";
-import Skills from "./Components/Skills";
-import Experiance from "./Components/Experiance";
-import Contact from "./Components/Contact";
-import Projects from "./Components/Projects";
-import Navbar from "./Components/Navbar";
+import NavMenu from "./Components/NavMenu";
+import {BrowserRouter as Router, Route,Switch} from 'react-router-dom';
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
+import Home from "./pages/Home";
+
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      
-      
       <Router>
+        <NavMenu/>
+
         <Switch>
-          <Route exact path="/">
+          <Route path='/about'>
             <About/>
           </Route>
 
-          <Route exact path="/Education">
-            <Education/>
-          </Route>
-          
-          <Route  exact path="/Experiance">
-            <Experiance />
+          <Route path='/projects'>
+            <Projects/>
           </Route>
 
-          <Route  exact path="/Skills">
-            <Skills/>
+          <Route path='/contact'>
+           <Contact/>
           </Route>
 
-          <Route  exact path="/Contact">
-            <Contact />
+          <Route path='/'>
+            <Home/>
           </Route>
-
-          <Route  exact path="/Projects">
-            <Projects />
-          </Route>
-
+    
+    
         </Switch>
       </Router>
-      <Experiance/>
-      <Education/>
-      <Skills/>
-      <Contact/>
 
-      <Projects/>
 
 
     </div>
